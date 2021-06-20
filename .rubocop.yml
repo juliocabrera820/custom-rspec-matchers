@@ -1,0 +1,9 @@
+AllCops:
+  SuggestExtensions: false
+
+Style/Documentation:
+  Enabled: false
+Style/FrozenStringLiteralComment:
+  Enabled: false
+Bundler/OrderedGems:
+  Enabled: false
