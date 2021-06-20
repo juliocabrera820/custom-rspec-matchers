@@ -11,6 +11,6 @@ RSpec.describe Number do
   end
 
   it 'returns a negative number' do
-    expect(0).not_to be_positive
+    expect(-2).not_to be_positive
   end
 end
