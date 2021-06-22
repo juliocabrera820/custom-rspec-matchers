@@ -11,11 +11,17 @@ module NumberMatcher
     end
 
     def failure_message(_actual)
-      "#{super()}, but had a negative number "
+      "#{super()}#{failure_reason('negative')}"
     end
 
     def failure_message_when_negated(_actual)
-      "#{super()}, but had a positive number "
+      "#{super()}#{failure_reason('positive')}"
+    end
+
+    private
+
+    def failure_reason(number_type)
+      ", but had a #{number_type} number"
     end
   end
 end
