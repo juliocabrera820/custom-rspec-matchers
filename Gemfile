@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
 
-ruby '2.5.7'
+ruby file: '.ruby-version'
 
-gem 'rspec'
-gem 'rubocop', require: false
+gem 'rspec', '~> 3.12'
+gem 'rubocop', '~> 1.57', require: false
