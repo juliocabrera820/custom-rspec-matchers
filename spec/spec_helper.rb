@@ -14,8 +14,8 @@
 #
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
 
-require_relative './support/matchers/be_a_multiple_of'
-require_relative './support/matchers/be_positive'
+require 'support/matchers/be_a_multiple_of'
+require 'support/matchers/be_positive'
 
 RSpec.configure do |config|
   # rspec-expectations config goes here. You can use an alternate
@@ -99,10 +99,4 @@ RSpec.configure do |config|
   #   # test failures related to randomization by passing the same `--seed` value
   #   # as the one that triggered the failure.
   #   Kernel.srand config.seed
-  config.failure_color = :magenta
-  config.success_color = :blue
-  config.detail_color = :white
-  config.color_mode = :on
-
-  config.include NumberMatcher
 end
