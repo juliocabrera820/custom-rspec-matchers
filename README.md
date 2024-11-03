@@ -1,11 +1,12 @@
+# Demo using custom RSpec matchers
+
 [![Author](https://img.shields.io/badge/author-juliocabrera820-3D3D4D?color=233D3D4&style=flat)](https://github.com/juliocabrera820)
-[![Languages](https://img.shields.io/github/languages/count/juliocabrera820/custom-rspec-matchers?color=%233D3D4&style=flat)](#)
+[![Languages](https://img.shields.io/github/languages/count/juliocabrera820/custom-rspec-matchers?color=%233D3D4&style=flat)]
 [![Stars](https://img.shields.io/github/stars/juliocabrera820/custom-rspec-matchers?color=233D3D4&style=flat)](https://github.com/juliocabrera820/custom-rspec-matchers/stargazers)
-[![Forks](https://img.shields.io/github/forks/juliocabrera820/custom-rspec-matchers?color=233D3D4&style=flat)](https://github.com/juliocabrera820/custom-rspec-matchers/network/members)
 
-### Demo using custom RSpec matchers
+## Requirements
 
-Ruby version - 2.5.7
+Ruby version - 3.2.0
 
 ## Usage
 
@@ -14,4 +15,4 @@ Run `rspec` to execute all the tests
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/juliocabrera820/custom-rspec-matchers
+Bug reports and pull requests are welcome on GitHub at [Link](https://github.com/juliocabrera820/custom-rspec-matchers)
